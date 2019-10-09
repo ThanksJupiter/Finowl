@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e18a06ca26b8440be9762e3c3cd719, type: 3}
+  m_Name: Feathered Butterfly Weed
+  m_EditorClassIdentifier: 
+  interactionTime: 1
+  destroyObjectOnPickup: 1
+  GuiSprite: {fileID: 21300000, guid: 9b65c49d0e625804caf8e43e18b97c0a, type: 3}

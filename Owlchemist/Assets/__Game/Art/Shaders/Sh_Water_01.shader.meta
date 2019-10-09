@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 4518f55739c4c20439148c38b7ee2f4c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_Placeholder_N: {fileID: 2800000, guid: 62ba14c7513541d4ebe3b7cf9955bd97, type: 3}
+  - _SkyCubeMap: {fileID: 8900000, guid: 14b65412f27492145b87c3bf5528e71a, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6533258135314726125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6533258135314726124}
+  - component: {fileID: 6533258135314726123}
+  m_Layer: 0
+  m_Name: TutorialSequence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6533258135314726124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533258135314726125}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6533258135314726123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533258135314726125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d256b55788a8246b53c4a3d955b61b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyEvent: {fileID: 11400000, guid: 59ae0f0783e9901418aa2f1824276ab2, type: 2}
+  currentBeatProgression: 0
+  firstTriggerThreshold: 0
+  begunTriggerObject: {fileID: 0}
+  progressTriggerObject: {fileID: 0}
+  endTriggerObject: {fileID: 0}
+  beginCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745, type: 2}
+  progressCondition: {fileID: 11400000, guid: b18ee0c72cf5b9d45a65a9966fdfe284, type: 2}
+  endCondition: {fileID: 11400000, guid: 73c46c95665f33749a7900f078c2d8bc, type: 2}
+  collectible: {fileID: 0}
+  endScreenObj: {fileID: 0}
+  beatCollections:
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: b18ee0c72cf5b9d45a65a9966fdfe284,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: 59ae0f0783e9901418aa2f1824276ab2, type: 2}
+    beginCheckDelay: 0
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: b18ee0c72cf5b9d45a65a9966fdfe284,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 73c46c95665f33749a7900f078c2d8bc,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 0
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 57e231fb10d3db742a5fa162767397a9,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 1.7
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 87e4a83f9ad1ceb4d9c67c745e953bf9,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 1
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 1
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 24d5d55a8654dd344833a57db4c3139a,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 1
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: 67feb4c70738dbc4db792af804a3e8d6, type: 2}
+    beginCheckDelay: 1
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 24d5d55a8654dd344833a57db4c3139a,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 0
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: a740c916bd3157043bc2f41378bb6c36,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: c4cecea979aab98439c33a67152495a8, type: 2}
+    beginCheckDelay: 0
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 1
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 56fe23b14a24c4d4d97f8f91f3082745,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 9cf08b0a23b75e749a13b79cfb210523,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 0
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 713a3bc43841fa442bba08f2a8359ced,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 56bf8357968453248bb6f7bd4f3a1d84,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 0
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 73c46c95665f33749a7900f078c2d8bc,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 87e4a83f9ad1ceb4d9c67c745e953bf9,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 0
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 73c46c95665f33749a7900f078c2d8bc,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 87e4a83f9ad1ceb4d9c67c745e953bf9,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 0
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0
+  - storyBeatObject: {fileID: 0}
+    enterBeatCondition: {fileID: 11400000, guid: 73c46c95665f33749a7900f078c2d8bc,
+      type: 2}
+    exitBeatCondition: {fileID: 11400000, guid: 87e4a83f9ad1ceb4d9c67c745e953bf9,
+      type: 2}
+    storyEvent: {fileID: 11400000, guid: a978e0768973dc84bbe59e766c185edd, type: 2}
+    beginCheckDelay: 1
+    pausePlay: 0
+    auxFader: {fileID: 0}
+    auxFadeOnBegin: 0
+    isStoryBeatDone: 0
+    progression: 0

@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Slime
+  m_Shader: {fileID: 4800000, guid: 9570435f0eddf434fa49b96371d85f3b, type: 3}
+  m_ShaderKeywords: _USECUSTOMAMBIENTCOLOR_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 6df955ba20d5e2644815be16e9e97dbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_GrassEdgeMask_01:
+        m_Texture: {fileID: 2800000, guid: 76993a50e04ca85488c3d40c5adb3b4f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: f3dbe9cfaba7b6541bacefcd88baf4b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientIntensity: 0.14
+    - _Bias: 0.245
+    - _BumpScale: 1
+    - _ChromaticAberration: 0.1
+    - _Cutoff: 0.5
+    - _DepthFadeAmount: 0.49
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeFoamSize: 0.1
+    - _EmissiveTexStrength: 1
+    - _Falloff: 0.56
+    - _Float0: 0
+    - _Float1: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _InvertNormal: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalScale: -2.07
+    - _NormalStrength: 0.4
+    - _OcclusionStrength: 1
+    - _OpacityScale: 0
+    - _OverlayStrength: 0.57
+    - _PanningSpeed: 0.05
+    - _Parallax: 0.02
+    - _Power: 4.04
+    - _Roughness: 0.2
+    - _RoughnessTexIntensity: 1
+    - _Scale: 5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TexPanningSpeed: 0.04
+    - _TexTiling: 2.8
+    - _TextureScale: 15
+    - _Tiling: 0.16
+    - _UVSec: 0
+    - _UseAlbedoMap: 0
+    - _UseCustomAmbientColor: 1
+    - _UseMaskTex: 0
+    - _UseMetallicTex: 0
+    - _UseRoughnessTex: 0
+    - _WaveScale: 0.05
+    - _WaveSpeed: 2
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _AlbedoColor: {r: 0.44451982, g: 0.5377358, b: 0.16487184, a: 0}
+    - _AlbedoColorOverlay: {r: 1, g: 1, b: 1, a: 0}
+    - _AmbientColor: {r: 0.11372549, g: 0.050980393, b: 0.007843138, a: 0}
+    - _Color: {r: 0.5451837, g: 0.5754717, b: 0, a: 1}
+    - _EdgeHighlight: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0.03773582, g: 0.035544205, b: 0.0026699868, a: 0}
+    - _FoamColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FogColor: {r: 0.2783019, g: 0.6363112, b: 1, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
+    - _WaterColor: {r: 0.2783019, g: 0.6363112, b: 1, a: 0}

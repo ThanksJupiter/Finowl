@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ___M_FogPlane_02
+  m_Shader: {fileID: 4800000, guid: cd18d6885a98a9e4bbc7c45b62eac19f, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _COLOROVERLAY_ON _FADING_ON _NORMALMAP
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - ALWAYS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: f3dbe9cfaba7b6541bacefcd88baf4b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.19, y: 0.09}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.19, y: 0.09}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Placeholder_N:
+        m_Texture: {fileID: 2800000, guid: f3dbe9cfaba7b6541bacefcd88baf4b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture0:
+        m_Texture: {fileID: 2800000, guid: f3dbe9cfaba7b6541bacefcd88baf4b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture1:
+        m_Texture: {fileID: 2800000, guid: 76993a50e04ca85488c3d40c5adb3b4f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AM: 1
+    - _AtriTiling: 0.046
+    - _BlendOp: 0
+    - _BumpScale: 0.1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2.17
+    - _CameraNearFadeDistance: 1.83
+    - _ColorMode: 3
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DFDistance: 3.8
+    - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.597
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 100
+    - _DistortionStrengthScaled: 10
+    - _DstBlend: 10
+    - _EmissionEnabled: 0
+    - _FO: 10
+    - _FlipbookMode: 0
+    - _Float0: 0.1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.427
+    - _GlossyReflections: 1
+    - _InvFade: 1.5
+    - _InvertNormal: 0
+    - _LightingEnabled: 1
+    - _Metallic: 0
+    - _Mode: 2
+    - _NormalStrenght: 0.67
+    - _OcclusionStrength: 1
+    - _P: 1
+    - _PannerSpeed: 0.06
+    - _Parallax: 0.02
+    - _RP: 8
+    - _Roughness: 0.191
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 1
+    - _SoftParticlesFarFadeDistance: 4.52
+    - _SoftParticlesNearFadeDistance: 1.5
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _TriScale: 2.1
+    - _TriTiling: 0.008
+    - _UVSec: 0
+    - _ZWrite: 0
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0}
+    - _C: {r: 0.8301887, g: 0.043075833, b: 0.043075833, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 0.5854264, g: 0.622, b: 0.561044, a: 1}
+    - _Color0: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorAddSubDiff: {r: -1, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+    - _Emissive2: {r: 0.035955857, g: 0.0754717, b: 0.06629631, a: 1}
+    - _EmissiveColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+    - _ScrollSpeeds: {r: -1, g: -20, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 1.5, g: 0.33112583, b: 0, a: 0}
